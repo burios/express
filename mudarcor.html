@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Exemplo getElementById</title>
+</head>
+<body>
+
+    <p id="paral">Algum texto de exemplo</p>
+    <button onclick="mudarcor('blue');">Azul</button>
+    <button onclick="mudarcor('red');">Vermelho</button>
+
+    <script>
+        function mudarcor(novaCor) {
+            var elemento = document.getElementById("paral");
+            elemento.style.color = novaCor; 
+        }
+    </script>
+
+</body>
+</html>
